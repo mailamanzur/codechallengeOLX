@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		06FD13811DE9F8C700CAA110 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FD13801DE9F8C700CAA110 /* main.m */; };
 		06FD13841DE9F8C700CAA110 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FD13831DE9F8C700CAA110 /* AppDelegate.m */; };
-		06FD13871DE9F8C700CAA110 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FD13861DE9F8C700CAA110 /* ViewController.m */; };
 		06FD138A1DE9F8C700CAA110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FD13881DE9F8C700CAA110 /* Main.storyboard */; };
 		06FD138C1DE9F8C700CAA110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06FD138B1DE9F8C700CAA110 /* Assets.xcassets */; };
 		06FD138F1DE9F8C700CAA110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FD138D1DE9F8C700CAA110 /* LaunchScreen.storyboard */; };
@@ -42,8 +41,6 @@
 		06FD13801DE9F8C700CAA110 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06FD13821DE9F8C700CAA110 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		06FD13831DE9F8C700CAA110 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		06FD13851DE9F8C700CAA110 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		06FD13861DE9F8C700CAA110 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		06FD13891DE9F8C700CAA110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06FD138B1DE9F8C700CAA110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06FD138E1DE9F8C700CAA110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -93,6 +90,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0694013D1DEA045C00E490F1 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				06FD13821DE9F8C700CAA110 /* AppDelegate.h */,
+				06FD13831DE9F8C700CAA110 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0694013E1DEA046A00E490F1 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		0694013F1DEA048100E490F1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		069401401DEA048B00E490F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		069401411DEA049100E490F1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		069401421DEA049B00E490F1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				06FD13881DE9F8C700CAA110 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		069401431DEA04A300E490F1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		069401441DEA04B300E490F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		06FD13731DE9F8C600CAA110 = {
 			isa = PBXGroup;
 			children = (
@@ -118,14 +174,14 @@
 		06FD137E1DE9F8C700CAA110 /* OlxCodeChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				06FD13821DE9F8C700CAA110 /* AppDelegate.h */,
-				06FD13831DE9F8C700CAA110 /* AppDelegate.m */,
-				06FD13851DE9F8C700CAA110 /* ViewController.h */,
-				06FD13861DE9F8C700CAA110 /* ViewController.m */,
-				06FD13881DE9F8C700CAA110 /* Main.storyboard */,
-				06FD138B1DE9F8C700CAA110 /* Assets.xcassets */,
-				06FD138D1DE9F8C700CAA110 /* LaunchScreen.storyboard */,
-				06FD13901DE9F8C700CAA110 /* Info.plist */,
+				069401441DEA04B300E490F1 /* Views */,
+				069401431DEA04A300E490F1 /* Utils */,
+				069401421DEA049B00E490F1 /* Storyboards */,
+				069401411DEA049100E490F1 /* Networking */,
+				069401401DEA048B00E490F1 /* Models */,
+				0694013F1DEA048100E490F1 /* Controllers */,
+				0694013D1DEA045C00E490F1 /* AppDelegate */,
+				0694013E1DEA046A00E490F1 /* Constants */,
 				06FD137F1DE9F8C700CAA110 /* Supporting Files */,
 			);
 			path = OlxCodeChallenge;
@@ -134,6 +190,9 @@
 		06FD137F1DE9F8C700CAA110 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				06FD138B1DE9F8C700CAA110 /* Assets.xcassets */,
+				06FD138D1DE9F8C700CAA110 /* LaunchScreen.storyboard */,
+				06FD13901DE9F8C700CAA110 /* Info.plist */,
 				06FD13801DE9F8C700CAA110 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -461,7 +520,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06FD13871DE9F8C700CAA110 /* ViewController.m in Sources */,
 				06FD13841DE9F8C700CAA110 /* AppDelegate.m in Sources */,
 				06FD13811DE9F8C700CAA110 /* main.m in Sources */,
 			);
@@ -615,6 +673,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q869SK4UT6;
 				INFOPLIST_FILE = OlxCodeChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mailamanzur.OlxCodeChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -628,6 +687,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q869SK4UT6;
 				INFOPLIST_FILE = OlxCodeChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mailamanzur.OlxCodeChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";

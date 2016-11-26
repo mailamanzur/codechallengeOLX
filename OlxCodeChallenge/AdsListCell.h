@@ -1,14 +1,14 @@
 //
-//  AdsListViewController.h
+//  AdsListCell.h
 //  OlxCodeChallenge
 //
 //  Created by Maila  Manzur on 26/11/16.
 //  Copyright © 2016 Maila  Manzur. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseCollectionViewCell.h"
 
-@interface AdsListViewController : UIViewController
+@interface AdsListCell : BaseCollectionViewCell
 
 
 @end

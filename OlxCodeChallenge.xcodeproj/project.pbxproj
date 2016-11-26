@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		069401481DEA05FE00E490F1 /* BaseMantleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 069401471DEA05FE00E490F1 /* BaseMantleObject.m */; };
+		0694014B1DEA08D800E490F1 /* ApiNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694014A1DEA08D800E490F1 /* ApiNetworkingManager.m */; };
+		0694014E1DEA0CC900E490F1 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694014D1DEA0CC900E490F1 /* NSString+Utils.m */; };
+		069401511DEA0E9100E490F1 /* NetworkingConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 069401501DEA0E9100E490F1 /* NetworkingConstants.m */; };
+		069401571DEA0FCD00E490F1 /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 069401561DEA0FCD00E490F1 /* BaseCollectionViewCell.m */; };
+		0694015A1DEA13B700E490F1 /* AdsApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 069401591DEA13B700E490F1 /* AdsApiManager.m */; };
+		0694015E1DEA190900E490F1 /* AdsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694015D1DEA190900E490F1 /* AdsResponse.m */; };
 		06FD13811DE9F8C700CAA110 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FD13801DE9F8C700CAA110 /* main.m */; };
 		06FD13841DE9F8C700CAA110 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FD13831DE9F8C700CAA110 /* AppDelegate.m */; };
 		06FD138A1DE9F8C700CAA110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FD13881DE9F8C700CAA110 /* Main.storyboard */; };
@@ -37,6 +44,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		069401461DEA05FE00E490F1 /* BaseMantleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMantleObject.h; sourceTree = "<group>"; };
+		069401471DEA05FE00E490F1 /* BaseMantleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMantleObject.m; sourceTree = "<group>"; };
+		069401491DEA08D800E490F1 /* ApiNetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiNetworkingManager.h; sourceTree = "<group>"; };
+		0694014A1DEA08D800E490F1 /* ApiNetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiNetworkingManager.m; sourceTree = "<group>"; };
+		0694014C1DEA0CC900E490F1 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		0694014D1DEA0CC900E490F1 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		0694014F1DEA0E9100E490F1 /* NetworkingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkingConstants.h; sourceTree = "<group>"; };
+		069401501DEA0E9100E490F1 /* NetworkingConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkingConstants.m; sourceTree = "<group>"; };
+		069401551DEA0FCD00E490F1 /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
+		069401561DEA0FCD00E490F1 /* BaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewCell.m; sourceTree = "<group>"; };
+		069401581DEA13B700E490F1 /* AdsApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsApiManager.h; sourceTree = "<group>"; };
+		069401591DEA13B700E490F1 /* AdsApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdsApiManager.m; sourceTree = "<group>"; };
+		0694015C1DEA190900E490F1 /* AdsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsResponse.h; sourceTree = "<group>"; };
+		0694015D1DEA190900E490F1 /* AdsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdsResponse.m; sourceTree = "<group>"; };
 		06FD137C1DE9F8C700CAA110 /* OlxCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OlxCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06FD13801DE9F8C700CAA110 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06FD13821DE9F8C700CAA110 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -102,6 +123,8 @@
 		0694013E1DEA046A00E490F1 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				0694014F1DEA0E9100E490F1 /* NetworkingConstants.h */,
+				069401501DEA0E9100E490F1 /* NetworkingConstants.m */,
 			);
 			name = Constants;
 			sourceTree = "<group>";
@@ -116,6 +139,8 @@
 		069401401DEA048B00E490F1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0694015B1DEA184E00E490F1 /* Ads */,
+				069401451DEA05AD00E490F1 /* Common */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -123,6 +148,10 @@
 		069401411DEA049100E490F1 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				069401491DEA08D800E490F1 /* ApiNetworkingManager.h */,
+				0694014A1DEA08D800E490F1 /* ApiNetworkingManager.m */,
+				069401581DEA13B700E490F1 /* AdsApiManager.h */,
+				069401591DEA13B700E490F1 /* AdsApiManager.m */,
 			);
 			name = Networking;
 			sourceTree = "<group>";
@@ -138,6 +167,8 @@
 		069401431DEA04A300E490F1 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				0694014C1DEA0CC900E490F1 /* NSString+Utils.h */,
+				0694014D1DEA0CC900E490F1 /* NSString+Utils.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -145,8 +176,52 @@
 		069401441DEA04B300E490F1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				069401521DEA0F8700E490F1 /* Cells */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		069401451DEA05AD00E490F1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				069401461DEA05FE00E490F1 /* BaseMantleObject.h */,
+				069401471DEA05FE00E490F1 /* BaseMantleObject.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		069401521DEA0F8700E490F1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				069401531DEA0F9200E490F1 /* CollectionViews */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		069401531DEA0F9200E490F1 /* CollectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				069401551DEA0FCD00E490F1 /* BaseCollectionViewCell.h */,
+				069401561DEA0FCD00E490F1 /* BaseCollectionViewCell.m */,
+				069401541DEA0FA600E490F1 /* New Group */,
+			);
+			name = CollectionViews;
+			sourceTree = "<group>";
+		};
+		069401541DEA0FA600E490F1 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		0694015B1DEA184E00E490F1 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				0694015C1DEA190900E490F1 /* AdsResponse.h */,
+				0694015D1DEA190900E490F1 /* AdsResponse.m */,
+			);
+			name = Ads;
 			sourceTree = "<group>";
 		};
 		06FD13731DE9F8C600CAA110 = {
@@ -520,8 +595,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				069401481DEA05FE00E490F1 /* BaseMantleObject.m in Sources */,
 				06FD13841DE9F8C700CAA110 /* AppDelegate.m in Sources */,
+				069401571DEA0FCD00E490F1 /* BaseCollectionViewCell.m in Sources */,
+				0694014E1DEA0CC900E490F1 /* NSString+Utils.m in Sources */,
+				069401511DEA0E9100E490F1 /* NetworkingConstants.m in Sources */,
+				0694014B1DEA08D800E490F1 /* ApiNetworkingManager.m in Sources */,
 				06FD13811DE9F8C700CAA110 /* main.m in Sources */,
+				0694015E1DEA190900E490F1 /* AdsResponse.m in Sources */,
+				0694015A1DEA13B700E490F1 /* AdsApiManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

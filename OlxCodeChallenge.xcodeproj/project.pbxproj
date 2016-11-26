@@ -14,6 +14,7 @@
 		069401571DEA0FCD00E490F1 /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 069401561DEA0FCD00E490F1 /* BaseCollectionViewCell.m */; };
 		0694015A1DEA13B700E490F1 /* AdsApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 069401591DEA13B700E490F1 /* AdsApiManager.m */; };
 		0694015E1DEA190900E490F1 /* AdsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694015D1DEA190900E490F1 /* AdsResponse.m */; };
+		069401611DEA1BC500E490F1 /* Ads.m in Sources */ = {isa = PBXBuildFile; fileRef = 069401601DEA1BC500E490F1 /* Ads.m */; };
 		06FD13811DE9F8C700CAA110 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FD13801DE9F8C700CAA110 /* main.m */; };
 		06FD13841DE9F8C700CAA110 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FD13831DE9F8C700CAA110 /* AppDelegate.m */; };
 		06FD138A1DE9F8C700CAA110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FD13881DE9F8C700CAA110 /* Main.storyboard */; };
@@ -58,6 +59,8 @@
 		069401591DEA13B700E490F1 /* AdsApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdsApiManager.m; sourceTree = "<group>"; };
 		0694015C1DEA190900E490F1 /* AdsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsResponse.h; sourceTree = "<group>"; };
 		0694015D1DEA190900E490F1 /* AdsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdsResponse.m; sourceTree = "<group>"; };
+		0694015F1DEA1BC500E490F1 /* Ads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ads.h; sourceTree = "<group>"; };
+		069401601DEA1BC500E490F1 /* Ads.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ads.m; sourceTree = "<group>"; };
 		06FD137C1DE9F8C700CAA110 /* OlxCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OlxCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06FD13801DE9F8C700CAA110 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06FD13821DE9F8C700CAA110 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -132,6 +135,7 @@
 		0694013F1DEA048100E490F1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				069401621DEA25CC00E490F1 /* Ads */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -220,6 +224,15 @@
 			children = (
 				0694015C1DEA190900E490F1 /* AdsResponse.h */,
 				0694015D1DEA190900E490F1 /* AdsResponse.m */,
+				0694015F1DEA1BC500E490F1 /* Ads.h */,
+				069401601DEA1BC500E490F1 /* Ads.m */,
+			);
+			name = Ads;
+			sourceTree = "<group>";
+		};
+		069401621DEA25CC00E490F1 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Ads;
 			sourceTree = "<group>";
@@ -603,6 +616,7 @@
 				0694014B1DEA08D800E490F1 /* ApiNetworkingManager.m in Sources */,
 				06FD13811DE9F8C700CAA110 /* main.m in Sources */,
 				0694015E1DEA190900E490F1 /* AdsResponse.m in Sources */,
+				069401611DEA1BC500E490F1 /* Ads.m in Sources */,
 				0694015A1DEA13B700E490F1 /* AdsApiManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

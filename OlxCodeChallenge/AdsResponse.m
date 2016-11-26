@@ -7,7 +7,18 @@
 //
 
 #import "AdsResponse.h"
+#import "Ads.h"
 
 @implementation AdsResponse
+
++(NSDictionary *)JSONKeyPathsByPropertyKey {
+    return @{
+             @"adsArray" : @"ads"
+             };
+}
+
++(NSValueTransformer *)adsArrayJSONTransformer {
+    return [MTLJSONAdapter arrayTransformerWithModelClass:[Ads class]];
+}
 
 @end

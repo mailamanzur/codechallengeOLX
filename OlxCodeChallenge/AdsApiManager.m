@@ -8,6 +8,7 @@
 
 #import "AdsApiManager.h"
 #import "NetworkingConstants.h"
+#import "AdsResponse.h"
 
 @implementation AdsApiManager
 
@@ -32,7 +33,15 @@
 -(void)fetchAds:(AdsSuccessBlock)sucess failure:(AdsFailureBlock)failure {
     
     [self GET:kApiBaseURL params:nil success:^(NSURLSessionTask *operation, id responseObject) {
-        sucess(responseObject);
+        NSError *error;
+        
+        AdsResponse *response  = [AdsResponse parse:responseObject error:&error];
+        if (response)
+            sucess(response);
+         else
+             sucess(nil);
+        
+    
     } failure:^(NSURLSessionTask *operation, NSError *error, NSString *customErrorMessage) {
         failure([error localizedDescription]);
         

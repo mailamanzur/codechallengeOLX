@@ -10,4 +10,7 @@
 
 @interface AdsResponse : BaseMantleObject
 
+@property (strong, nonatomic) NSArray *adsArray;
+
+
 @end

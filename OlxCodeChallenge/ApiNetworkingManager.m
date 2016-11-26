@@ -15,7 +15,6 @@
 @property (strong, nonatomic) AFHTTPSessionManager *manager;
 @property (strong, nonatomic) NSURL *baseURL;
 
-
 @end
 
 @implementation ApiNetworkingManager
@@ -23,6 +22,7 @@
 -(void)setupWithHttps{
     [self setupRequestOperationManager];
     [self setupRequestSerializers];
+    [self setupSecurityPolicy];
 }
 
 -(void)addHeader:(NSString *)value forKey:(NSString *)key{
@@ -130,6 +130,17 @@
     _manager.requestSerializer = [AFJSONRequestSerializer serializer];
     _manager.responseSerializer = [AFJSONResponseSerializer serializer];
     _manager.responseSerializer.acceptableContentTypes = [_manager.responseSerializer.acceptableContentTypes setByAddingObject:@"text/plain"];
+}
+
+
+-(void)setupSecurityPolicy {
+    AFSecurityPolicy* policy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeNone];
+    [policy setValidatesDomainName:NO];
+    [policy setAllowInvalidCertificates:YES];
+    _manager.securityPolicy = policy;
+
+
+
 }
 
 

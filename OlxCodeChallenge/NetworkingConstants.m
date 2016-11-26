@@ -9,7 +9,7 @@
 #import "NetworkingConstants.h"
 
 # pragma mark - Base
-NSString *const kApiBaseURL = @"https://www.olx.pt/i2/ads/?json=1&search%5bcategory_id%5d=25";
+NSString *const kApiBaseURL = @"http://olx.pt/i2/ads/?json=1&search[category_id]=25";
 
 # pragma mark - HTTP Status code
 NSString *const kBadRequestStatus = @"400";

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-@class AdsResponse;
+
 
 @interface AdsModelContainer : NSObject
 @property (nonatomic, strong) NSArray *adsList;

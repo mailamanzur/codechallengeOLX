@@ -9,16 +9,19 @@
 #import "AdsListViewController.h"
 #import "AdsApiManager.h"
 #import  <MBProgressHUD/MBProgressHUD.h>
-#import "AdsModelContainer.m"
+#import "AdsModelContainer.h"
+#import "AdsListCell.h"
 
 typedef void (^LoadEnds)();
 typedef void (^RefreshEnds)();
 
-@interface AdsListViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
+@interface AdsListViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 
 @property (weak, nonatomic) IBOutlet UICollectionView *adsCollectionView;
 @property (strong, nonatomic) UIRefreshControl *refreshControl;
+@property (strong, nonatomic)NSArray *adsArray;
 @property (assign, nonatomic) BOOL isRefreshing;
+@property (strong, nonatomic)NSIndexPath *selectedIndexPath;
 
 @end
 
@@ -27,7 +30,14 @@ typedef void (^RefreshEnds)();
 #pragma mark - View life cycle
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
+    
+    [self setupRefresher];
+    
+    [self fetchAdsList];
+    
+    
  
 }
 
@@ -40,6 +50,7 @@ typedef void (^RefreshEnds)();
     [self.adsCollectionView reloadData];
     
 }
+
 
 -(void)setupRefresher {
     self.refreshControl = [UIRefreshControl new];
@@ -55,6 +66,8 @@ typedef void (^RefreshEnds)();
     
     [[AdsApiManager sharedManager]fetchAds:^(id response) {
         [AdsModelContainer sharedManager].adsList = response;
+        self.adsArray = [AdsModelContainer sharedManager].adsList;
+     
         if (!_isRefreshing) {
             [self setupCollectionView];
             [MBProgressHUD hideHUDForView:self.view animated:YES];
@@ -73,5 +86,84 @@ typedef void (^RefreshEnds)();
         
     }];
 }
+
+#pragma mark - CollectionView Delegates/DataSource
+
+-(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    
+    return [self.adsArray count];
+    
+}
+
+-(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    return [self collectionView:collectionView adsCellForRowAt:indexPath];
+    
+    
+}
+
+-(BOOL)collectionView:(UICollectionView *)collectionView shouldSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    self.selectedIndexPath = indexPath;
+    
+    return YES;
+}
+
+
+-(AdsListCell *)collectionView:(UICollectionView *)collectionView adsCellForRowAt:(NSIndexPath *)indexPath {
+    AdsListCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:[AdsListCell cellIdentifier] forIndexPath:indexPath];
+    
+    [cell setup:[_adsArray objectAtIndex:indexPath.row]];
+    
+    return cell;
+    
+}
+
+-(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+    return [AdsListCell cellSizeForContainer:_adsCollectionView.bounds
+                              withMinSpacing:3.f
+                                  andMarging:3.f
+                      andNumberOfCellsPerRow:2];
+}
+
+#pragma mark - PullToRefresh
+
+-(void)pullToRefresh {
+    
+    if (!_isRefreshing) {
+        _isRefreshing = YES;
+        
+        [self refreshBegins:^{
+            self.isRefreshing = NO;
+            [self.refreshControl endRefreshing];
+            [self.adsCollectionView reloadData];
+        }];
+    }
+}
+
+-(void)refreshBegins:(RefreshEnds)refreshEnds {
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        [self fetchAdsList];
+        sleep(1);
+        dispatch_async(dispatch_get_main_queue(), ^{
+            refreshEnds();
+        });
+    });
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @end

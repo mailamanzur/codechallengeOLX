@@ -10,5 +10,9 @@
 
 @interface AdsListCell : BaseCollectionViewCell
 
++(CGSize)cellSizeForContainer:(CGRect)bounds
+               withMinSpacing:(CGFloat)minSpacing
+                   andMarging:(CGFloat)margin
+       andNumberOfCellsPerRow:(NSInteger)cellsPerRow;
 
 @end

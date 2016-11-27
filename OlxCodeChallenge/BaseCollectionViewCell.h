@@ -10,8 +10,6 @@
 
 @interface BaseCollectionViewCell : UICollectionViewCell
 
-+(CGSize)cellSize;
-
 +(NSString *)cellIdentifier;
 
 -(void)setup:(id)object;

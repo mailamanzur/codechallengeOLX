@@ -20,8 +20,16 @@
 
 @implementation AdsListCell
 
-+(CGSize)cellSize {
-    return CGSizeMake(200.0, 200.0);
++(CGSize)cellSizeForContainer:(CGRect)bounds
+               withMinSpacing:(CGFloat)minSpacing
+                   andMarging:(CGFloat)margin
+       andNumberOfCellsPerRow:(NSInteger)cellsPerRow {
+    
+    CGFloat totalCellsWidth = bounds.size.width - minSpacing*(cellsPerRow-1) - margin/2;
+    CGFloat width = totalCellsWidth/cellsPerRow;
+    
+    return CGSizeMake(width, 200);
+    
 }
 
 -(void)setup:(id)object {

@@ -37,7 +37,7 @@
         
         AdsResponse *response  = [AdsResponse parse:responseObject error:&error];
         if (response)
-            sucess(response);
+            sucess(response.adsArray);
          else
              sucess(nil);
         

@@ -10,9 +10,6 @@
 
 @implementation BaseCollectionViewCell
 
-+(CGSize)cellSize {
-    return CGSizeMake(0, 0);
-}
 
 +(NSString *)cellIdentifier {
     NSString *identifier = NSStringFromClass(self.class);

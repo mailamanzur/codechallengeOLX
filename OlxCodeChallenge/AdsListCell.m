@@ -35,7 +35,7 @@
 -(void)setup:(id)object {
     Ads *ads = (Ads *)object;
     _labelPrice.text = ads.adsPrice;
-    _labelUserName.text = ads.adsPerson;
+    _labelUserName.text = ads.adsTitle;
 
     [_adsImage sd_setImageWithURL:nil placeholderImage:[UIImage imageNamed:@"OLX"]];
     

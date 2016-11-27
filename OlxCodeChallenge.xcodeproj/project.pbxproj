@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		067112381DEB68B90067DD7C /* AdsDetailStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067112371DEB68B90067DD7C /* AdsDetailStoryboard.storyboard */; };
+		0671123C1DEB6B140067DD7C /* DetailPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0671123B1DEB6B140067DD7C /* DetailPageViewController.m */; };
+		067112401DEB6D710067DD7C /* DetailPageDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0671123F1DEB6D710067DD7C /* DetailPageDataSource.m */; };
+		067112431DEB6F510067DD7C /* AdsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067112421DEB6F510067DD7C /* AdsDetailViewController.m */; };
+		067112471DEB8CAF0067DD7C /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 067112461DEB8CAF0067DD7C /* BaseTableViewCell.m */; };
+		0671124B1DEB8D7F0067DD7C /* AdsDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0671124A1DEB8D7F0067DD7C /* AdsDetailTableViewCell.m */; };
 		069401481DEA05FE00E490F1 /* BaseMantleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 069401471DEA05FE00E490F1 /* BaseMantleObject.m */; };
 		0694014B1DEA08D800E490F1 /* ApiNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694014A1DEA08D800E490F1 /* ApiNetworkingManager.m */; };
 		0694014E1DEA0CC900E490F1 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694014D1DEA0CC900E490F1 /* NSString+Utils.m */; };
@@ -48,6 +54,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		067112371DEB68B90067DD7C /* AdsDetailStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AdsDetailStoryboard.storyboard; sourceTree = "<group>"; };
+		0671123A1DEB6B140067DD7C /* DetailPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailPageViewController.h; sourceTree = "<group>"; };
+		0671123B1DEB6B140067DD7C /* DetailPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailPageViewController.m; sourceTree = "<group>"; };
+		0671123E1DEB6D710067DD7C /* DetailPageDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailPageDataSource.h; sourceTree = "<group>"; };
+		0671123F1DEB6D710067DD7C /* DetailPageDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailPageDataSource.m; sourceTree = "<group>"; };
+		067112411DEB6F510067DD7C /* AdsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsDetailViewController.h; sourceTree = "<group>"; };
+		067112421DEB6F510067DD7C /* AdsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdsDetailViewController.m; sourceTree = "<group>"; };
+		067112451DEB8CAF0067DD7C /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		067112461DEB8CAF0067DD7C /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		067112491DEB8D7F0067DD7C /* AdsDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsDetailTableViewCell.h; sourceTree = "<group>"; };
+		0671124A1DEB8D7F0067DD7C /* AdsDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdsDetailTableViewCell.m; sourceTree = "<group>"; };
 		069401461DEA05FE00E490F1 /* BaseMantleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMantleObject.h; sourceTree = "<group>"; };
 		069401471DEA05FE00E490F1 /* BaseMantleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMantleObject.m; sourceTree = "<group>"; };
 		069401491DEA08D800E490F1 /* ApiNetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiNetworkingManager.h; sourceTree = "<group>"; };
@@ -123,6 +140,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		067112391DEB6AF10067DD7C /* AdsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				0671123A1DEB6B140067DD7C /* DetailPageViewController.h */,
+				0671123B1DEB6B140067DD7C /* DetailPageViewController.m */,
+				067112411DEB6F510067DD7C /* AdsDetailViewController.h */,
+				067112421DEB6F510067DD7C /* AdsDetailViewController.m */,
+			);
+			name = AdsDetail;
+			sourceTree = "<group>";
+		};
+		0671123D1DEB6D3E0067DD7C /* AdsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				0671123E1DEB6D710067DD7C /* DetailPageDataSource.h */,
+				0671123F1DEB6D710067DD7C /* DetailPageDataSource.m */,
+			);
+			name = AdsDetail;
+			sourceTree = "<group>";
+		};
+		067112441DEB8C870067DD7C /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				067112481DEB8D5D0067DD7C /* AdsDetail */,
+				067112451DEB8CAF0067DD7C /* BaseTableViewCell.h */,
+				067112461DEB8CAF0067DD7C /* BaseTableViewCell.m */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		067112481DEB8D5D0067DD7C /* AdsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				067112491DEB8D7F0067DD7C /* AdsDetailTableViewCell.h */,
+				0671124A1DEB8D7F0067DD7C /* AdsDetailTableViewCell.m */,
+			);
+			name = AdsDetail;
+			sourceTree = "<group>";
+		};
 		0694013D1DEA045C00E490F1 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +200,7 @@
 		0694013F1DEA048100E490F1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				067112391DEB6AF10067DD7C /* AdsDetail */,
 				069401621DEA25CC00E490F1 /* Ads */,
 			);
 			name = Controllers;
@@ -173,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				06FD13881DE9F8C700CAA110 /* Main.storyboard */,
+				067112371DEB68B90067DD7C /* AdsDetailStoryboard.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -206,6 +264,7 @@
 		069401521DEA0F8700E490F1 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				067112441DEB8C870067DD7C /* TableView */,
 				069401531DEA0F9200E490F1 /* CollectionViews */,
 			);
 			name = Cells;
@@ -253,6 +312,7 @@
 		06EEA94E1DEA358600A53AE9 /* ModelContainer */ = {
 			isa = PBXGroup;
 			children = (
+				0671123D1DEB6D3E0067DD7C /* AdsDetail */,
 				06EEA94F1DEA359200A53AE9 /* Ads */,
 			);
 			name = ModelContainer;
@@ -475,6 +535,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06FD138F1DE9F8C700CAA110 /* LaunchScreen.storyboard in Resources */,
+				067112381DEB68B90067DD7C /* AdsDetailStoryboard.storyboard in Resources */,
 				06FD138C1DE9F8C700CAA110 /* Assets.xcassets in Resources */,
 				06FD138A1DE9F8C700CAA110 /* Main.storyboard in Resources */,
 			);
@@ -643,14 +704,19 @@
 				06FD13841DE9F8C700CAA110 /* AppDelegate.m in Sources */,
 				069401571DEA0FCD00E490F1 /* BaseCollectionViewCell.m in Sources */,
 				0694014E1DEA0CC900E490F1 /* NSString+Utils.m in Sources */,
+				067112471DEB8CAF0067DD7C /* BaseTableViewCell.m in Sources */,
 				06EEA94D1DEA310400A53AE9 /* AdsListCell.m in Sources */,
 				069401511DEA0E9100E490F1 /* NetworkingConstants.m in Sources */,
+				0671124B1DEB8D7F0067DD7C /* AdsDetailTableViewCell.m in Sources */,
 				0694014B1DEA08D800E490F1 /* ApiNetworkingManager.m in Sources */,
 				06EEA9531DEA35CD00A53AE9 /* AdsModelContainer.m in Sources */,
 				069401651DEA262E00E490F1 /* AdsListViewController.m in Sources */,
 				06FD13811DE9F8C700CAA110 /* main.m in Sources */,
+				0671123C1DEB6B140067DD7C /* DetailPageViewController.m in Sources */,
+				067112401DEB6D710067DD7C /* DetailPageDataSource.m in Sources */,
 				0694015E1DEA190900E490F1 /* AdsResponse.m in Sources */,
 				069401611DEA1BC500E490F1 /* Ads.m in Sources */,
+				067112431DEB6F510067DD7C /* AdsDetailViewController.m in Sources */,
 				0694015A1DEA13B700E490F1 /* AdsApiManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -803,7 +869,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q869SK4UT6;
 				INFOPLIST_FILE = OlxCodeChallenge/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mailamanzur.OlxCodeChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -817,7 +883,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q869SK4UT6;
 				INFOPLIST_FILE = OlxCodeChallenge/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mailamanzur.OlxCodeChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";

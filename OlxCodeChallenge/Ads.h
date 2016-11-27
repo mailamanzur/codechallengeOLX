@@ -17,5 +17,6 @@
 @property (strong, nonatomic) NSString *adsLong;
 @property (strong, nonatomic) NSString *adsCity;
 @property (strong, nonatomic) NSString *adsPerson;
+@property (strong, nonatomic) NSString *adsDate;
 
 @end

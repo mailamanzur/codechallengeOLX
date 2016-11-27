@@ -19,7 +19,8 @@
              @"adsLat" : @"map_lat",
              @"adsLong" : @"map_lon",
              @"adsCity" : @"city_label",
-             @"adsPerson" : @"person"
+             @"adsPerson" : @"person",
+             @"adsDate" :@"created"
              };
 }
 

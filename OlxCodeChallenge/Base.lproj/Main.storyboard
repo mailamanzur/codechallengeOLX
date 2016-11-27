@@ -84,7 +84,7 @@
                                             <outlet property="adsImage" destination="ShH-Nh-KaQ" id="SMO-SV-Fn0"/>
                                             <outlet property="labelPrice" destination="3f3-7H-dcW" id="UKh-sw-TEE"/>
                                             <outlet property="labelUserName" destination="5xF-RD-5LU" id="g4Z-wp-Wdr"/>
-                                            <segue destination="sli-Ov-uPm" kind="showDetail" id="fHz-Yq-x4W"/>
+                                            <segue destination="Zo8-rS-nJQ" kind="show" identifier="detailSegue" id="ePl-Uf-yDR"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -107,20 +107,20 @@
             </objects>
             <point key="canvasLocation" x="1076" y="132.68365817091455"/>
         </scene>
-        <!--Page View Controller-->
-        <scene sceneID="S8I-u1-fTk">
+        <!--AdsDetailStoryboard-->
+        <scene sceneID="7f3-H6-7ZE">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="sli-Ov-uPm" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jt6-oS-SAu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardIdentifier="AdsDetailStoryboard" storyboardName="AdsDetailStoryboard" id="Zo8-rS-nJQ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zRh-JM-f2f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1721" y="132"/>
+            <point key="canvasLocation" x="1702" y="132"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="vyK-Fu-Xzw">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nfF-Gq-gUL" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="odn-fr-vcK">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="odn-fr-vcK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

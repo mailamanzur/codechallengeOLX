@@ -11,6 +11,7 @@
 
 @interface AdsModelContainer : NSObject
 @property (nonatomic, strong) NSArray *adsList;
+@property (strong, nonatomic) NSIndexPath *indexPath;
 
 +(AdsModelContainer *)sharedManager;
 

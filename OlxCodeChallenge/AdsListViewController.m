@@ -11,6 +11,7 @@
 #import  <MBProgressHUD/MBProgressHUD.h>
 #import "AdsModelContainer.h"
 #import "AdsListCell.h"
+#import "DetailPageViewController.h"
 
 typedef void (^LoadEnds)();
 typedef void (^RefreshEnds)();
@@ -21,7 +22,7 @@ typedef void (^RefreshEnds)();
 @property (strong, nonatomic) UIRefreshControl *refreshControl;
 @property (strong, nonatomic)NSArray *adsArray;
 @property (assign, nonatomic) BOOL isRefreshing;
-@property (strong, nonatomic)NSIndexPath *selectedIndexPath;
+
 
 @end
 
@@ -37,8 +38,6 @@ typedef void (^RefreshEnds)();
     
     [self fetchAdsList];
     
-    
- 
 }
 
 
@@ -102,7 +101,7 @@ typedef void (^RefreshEnds)();
 }
 
 -(BOOL)collectionView:(UICollectionView *)collectionView shouldSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    self.selectedIndexPath = indexPath;
+   [AdsModelContainer sharedManager].indexPath = indexPath;
     
     return YES;
 }
@@ -151,7 +150,13 @@ typedef void (^RefreshEnds)();
 }
 
 
+#pragma mark - Navigation
 
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"detailSegue"]) {
+        
+    }
+}
 
 
 

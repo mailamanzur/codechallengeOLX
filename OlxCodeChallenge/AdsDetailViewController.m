@@ -9,11 +9,12 @@
 #import "AdsDetailViewController.h"
 #import "AdsDetailTableViewCell.h"
 #import "Ads.h"
+#import <MapKit/MapKit.h>
 
 @interface AdsDetailViewController () <UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
+@property (weak, nonatomic) IBOutlet UIButton *mapsButton;
 
 @end
 
@@ -22,6 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupTableView];
+    [self.mapsButton setTitle:self.ads.adsCity forState:UIControlStateNormal];
 }
 
 -(void)setupTableView {
@@ -61,5 +63,19 @@
     return [AdsDetailTableViewCell cellHeight];
     
 }
+
+- (IBAction)showMap:(id)sender {
+    
+    CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake(_ads.adsLat.doubleValue,_ads.adsLong.doubleValue);
+    MKPlacemark *placemark = [[MKPlacemark alloc] initWithCoordinate:coordinate addressDictionary:nil];
+    
+    MKMapItem *mapItem = [[MKMapItem alloc] initWithPlacemark:placemark];
+    [mapItem setName:_ads.adsCity];
+    
+
+    [MKMapItem openMapsWithItems:@[mapItem] launchOptions:nil];
+    
+}
+
 
 @end

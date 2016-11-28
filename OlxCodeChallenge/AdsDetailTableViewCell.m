@@ -23,7 +23,7 @@
     Ads *ads = (Ads *)object;
     _titleLabel.text = ads.adsTitle;
     _dateLabel.text = ads.adsDate;
-    _priceLabel.text = ads.adsPrice;
+    _priceLabel.text = [NSString stringWithFormat:@"€ %@", ads.adsPrice];
     _descriptionLabel.text = ads.adsDescription;
     
 }

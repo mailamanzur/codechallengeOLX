@@ -13,6 +13,7 @@
 		067112431DEB6F510067DD7C /* AdsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067112421DEB6F510067DD7C /* AdsDetailViewController.m */; };
 		067112471DEB8CAF0067DD7C /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 067112461DEB8CAF0067DD7C /* BaseTableViewCell.m */; };
 		0671124B1DEB8D7F0067DD7C /* AdsDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0671124A1DEB8D7F0067DD7C /* AdsDetailTableViewCell.m */; };
+		067112531DEBA8EB0067DD7C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067112521DEBA8EB0067DD7C /* MapKit.framework */; };
 		069401481DEA05FE00E490F1 /* BaseMantleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 069401471DEA05FE00E490F1 /* BaseMantleObject.m */; };
 		0694014B1DEA08D800E490F1 /* ApiNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694014A1DEA08D800E490F1 /* ApiNetworkingManager.m */; };
 		0694014E1DEA0CC900E490F1 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694014D1DEA0CC900E490F1 /* NSString+Utils.m */; };
@@ -65,6 +66,7 @@
 		067112461DEB8CAF0067DD7C /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
 		067112491DEB8D7F0067DD7C /* AdsDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsDetailTableViewCell.h; sourceTree = "<group>"; };
 		0671124A1DEB8D7F0067DD7C /* AdsDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdsDetailTableViewCell.m; sourceTree = "<group>"; };
+		067112521DEBA8EB0067DD7C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		069401461DEA05FE00E490F1 /* BaseMantleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMantleObject.h; sourceTree = "<group>"; };
 		069401471DEA05FE00E490F1 /* BaseMantleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMantleObject.m; sourceTree = "<group>"; };
 		069401491DEA08D800E490F1 /* ApiNetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiNetworkingManager.h; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				067112531DEBA8EB0067DD7C /* MapKit.framework in Frameworks */,
 				5D9BADD00CCFACCB0FB6F760 /* libPods-OlxCodeChallenge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +414,7 @@
 		D40EDA41E3779DEDB7609166 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				067112521DEBA8EB0067DD7C /* MapKit.framework */,
 				4CA38D12478429977656908F /* libPods-OlxCodeChallenge.a */,
 				29F9FD4D18C6E182F079CFA7 /* libPods-OlxCodeChallengeTests.a */,
 				6984B0595FEDE3649FF19620 /* libPods-OlxCodeChallengeUITests.a */,
@@ -496,6 +500,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = Q869SK4UT6;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					06FD13941DE9F8C700CAA110 = {
 						CreatedOnToolsVersion = 8.1;

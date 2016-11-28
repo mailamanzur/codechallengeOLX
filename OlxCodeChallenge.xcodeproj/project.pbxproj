@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		067112381DEB68B90067DD7C /* AdsDetailStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067112371DEB68B90067DD7C /* AdsDetailStoryboard.storyboard */; };
+		0671123C1DEB6B140067DD7C /* DetailPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0671123B1DEB6B140067DD7C /* DetailPageViewController.m */; };
+		067112401DEB6D710067DD7C /* DetailPageDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0671123F1DEB6D710067DD7C /* DetailPageDataSource.m */; };
+		067112431DEB6F510067DD7C /* AdsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067112421DEB6F510067DD7C /* AdsDetailViewController.m */; };
+		067112471DEB8CAF0067DD7C /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 067112461DEB8CAF0067DD7C /* BaseTableViewCell.m */; };
+		0671124B1DEB8D7F0067DD7C /* AdsDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0671124A1DEB8D7F0067DD7C /* AdsDetailTableViewCell.m */; };
+		067112531DEBA8EB0067DD7C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067112521DEBA8EB0067DD7C /* MapKit.framework */; };
+		069401481DEA05FE00E490F1 /* BaseMantleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 069401471DEA05FE00E490F1 /* BaseMantleObject.m */; };
+		0694014B1DEA08D800E490F1 /* ApiNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694014A1DEA08D800E490F1 /* ApiNetworkingManager.m */; };
+		0694014E1DEA0CC900E490F1 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694014D1DEA0CC900E490F1 /* NSString+Utils.m */; };
+		069401511DEA0E9100E490F1 /* NetworkingConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 069401501DEA0E9100E490F1 /* NetworkingConstants.m */; };
+		069401571DEA0FCD00E490F1 /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 069401561DEA0FCD00E490F1 /* BaseCollectionViewCell.m */; };
+		0694015A1DEA13B700E490F1 /* AdsApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 069401591DEA13B700E490F1 /* AdsApiManager.m */; };
+		0694015E1DEA190900E490F1 /* AdsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0694015D1DEA190900E490F1 /* AdsResponse.m */; };
+		069401611DEA1BC500E490F1 /* Ads.m in Sources */ = {isa = PBXBuildFile; fileRef = 069401601DEA1BC500E490F1 /* Ads.m */; };
+		069401651DEA262E00E490F1 /* AdsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 069401641DEA262E00E490F1 /* AdsListViewController.m */; };
+		06EEA94D1DEA310400A53AE9 /* AdsListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEA94C1DEA310400A53AE9 /* AdsListCell.m */; };
+		06EEA9531DEA35CD00A53AE9 /* AdsModelContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEA9521DEA35CD00A53AE9 /* AdsModelContainer.m */; };
 		06FD13811DE9F8C700CAA110 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FD13801DE9F8C700CAA110 /* main.m */; };
 		06FD13841DE9F8C700CAA110 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FD13831DE9F8C700CAA110 /* AppDelegate.m */; };
-		06FD13871DE9F8C700CAA110 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FD13861DE9F8C700CAA110 /* ViewController.m */; };
 		06FD138A1DE9F8C700CAA110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FD13881DE9F8C700CAA110 /* Main.storyboard */; };
 		06FD138C1DE9F8C700CAA110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06FD138B1DE9F8C700CAA110 /* Assets.xcassets */; };
 		06FD138F1DE9F8C700CAA110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FD138D1DE9F8C700CAA110 /* LaunchScreen.storyboard */; };
 		06FD139A1DE9F8C700CAA110 /* OlxCodeChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FD13991DE9F8C700CAA110 /* OlxCodeChallengeTests.m */; };
 		06FD13A51DE9F8C700CAA110 /* OlxCodeChallengeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FD13A41DE9F8C700CAA110 /* OlxCodeChallengeUITests.m */; };
+		1DA505D269DCA9BB62B5BF6A /* libPods-OlxCodeChallengeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6984B0595FEDE3649FF19620 /* libPods-OlxCodeChallengeUITests.a */; };
+		48837B55E8CFE874D8263811 /* libPods-OlxCodeChallengeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29F9FD4D18C6E182F079CFA7 /* libPods-OlxCodeChallengeTests.a */; };
+		5D9BADD00CCFACCB0FB6F760 /* libPods-OlxCodeChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA38D12478429977656908F /* libPods-OlxCodeChallenge.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +55,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		067112371DEB68B90067DD7C /* AdsDetailStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AdsDetailStoryboard.storyboard; sourceTree = "<group>"; };
+		0671123A1DEB6B140067DD7C /* DetailPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailPageViewController.h; sourceTree = "<group>"; };
+		0671123B1DEB6B140067DD7C /* DetailPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailPageViewController.m; sourceTree = "<group>"; };
+		0671123E1DEB6D710067DD7C /* DetailPageDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailPageDataSource.h; sourceTree = "<group>"; };
+		0671123F1DEB6D710067DD7C /* DetailPageDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailPageDataSource.m; sourceTree = "<group>"; };
+		067112411DEB6F510067DD7C /* AdsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsDetailViewController.h; sourceTree = "<group>"; };
+		067112421DEB6F510067DD7C /* AdsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdsDetailViewController.m; sourceTree = "<group>"; };
+		067112451DEB8CAF0067DD7C /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		067112461DEB8CAF0067DD7C /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		067112491DEB8D7F0067DD7C /* AdsDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsDetailTableViewCell.h; sourceTree = "<group>"; };
+		0671124A1DEB8D7F0067DD7C /* AdsDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdsDetailTableViewCell.m; sourceTree = "<group>"; };
+		067112521DEBA8EB0067DD7C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		069401461DEA05FE00E490F1 /* BaseMantleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMantleObject.h; sourceTree = "<group>"; };
+		069401471DEA05FE00E490F1 /* BaseMantleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMantleObject.m; sourceTree = "<group>"; };
+		069401491DEA08D800E490F1 /* ApiNetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiNetworkingManager.h; sourceTree = "<group>"; };
+		0694014A1DEA08D800E490F1 /* ApiNetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiNetworkingManager.m; sourceTree = "<group>"; };
+		0694014C1DEA0CC900E490F1 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		0694014D1DEA0CC900E490F1 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		0694014F1DEA0E9100E490F1 /* NetworkingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkingConstants.h; sourceTree = "<group>"; };
+		069401501DEA0E9100E490F1 /* NetworkingConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkingConstants.m; sourceTree = "<group>"; };
+		069401551DEA0FCD00E490F1 /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
+		069401561DEA0FCD00E490F1 /* BaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewCell.m; sourceTree = "<group>"; };
+		069401581DEA13B700E490F1 /* AdsApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsApiManager.h; sourceTree = "<group>"; };
+		069401591DEA13B700E490F1 /* AdsApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdsApiManager.m; sourceTree = "<group>"; };
+		0694015C1DEA190900E490F1 /* AdsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsResponse.h; sourceTree = "<group>"; };
+		0694015D1DEA190900E490F1 /* AdsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdsResponse.m; sourceTree = "<group>"; };
+		0694015F1DEA1BC500E490F1 /* Ads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ads.h; sourceTree = "<group>"; };
+		069401601DEA1BC500E490F1 /* Ads.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ads.m; sourceTree = "<group>"; };
+		069401631DEA262E00E490F1 /* AdsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsListViewController.h; sourceTree = "<group>"; };
+		069401641DEA262E00E490F1 /* AdsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdsListViewController.m; sourceTree = "<group>"; };
+		06EEA94B1DEA310400A53AE9 /* AdsListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsListCell.h; sourceTree = "<group>"; };
+		06EEA94C1DEA310400A53AE9 /* AdsListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdsListCell.m; sourceTree = "<group>"; };
+		06EEA9511DEA35CD00A53AE9 /* AdsModelContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsModelContainer.h; sourceTree = "<group>"; };
+		06EEA9521DEA35CD00A53AE9 /* AdsModelContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdsModelContainer.m; sourceTree = "<group>"; };
 		06FD137C1DE9F8C700CAA110 /* OlxCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OlxCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06FD13801DE9F8C700CAA110 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06FD13821DE9F8C700CAA110 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		06FD13831DE9F8C700CAA110 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		06FD13851DE9F8C700CAA110 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		06FD13861DE9F8C700CAA110 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		06FD13891DE9F8C700CAA110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06FD138B1DE9F8C700CAA110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06FD138E1DE9F8C700CAA110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +103,15 @@
 		06FD13A01DE9F8C700CAA110 /* OlxCodeChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OlxCodeChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06FD13A41DE9F8C700CAA110 /* OlxCodeChallengeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OlxCodeChallengeUITests.m; sourceTree = "<group>"; };
 		06FD13A61DE9F8C700CAA110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A98EF7138E1867224EF988D /* Pods-OlxCodeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OlxCodeChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-OlxCodeChallenge/Pods-OlxCodeChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		25F12ED2B2041498547035B5 /* Pods-OlxCodeChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OlxCodeChallengeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OlxCodeChallengeUITests/Pods-OlxCodeChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		29F9FD4D18C6E182F079CFA7 /* libPods-OlxCodeChallengeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OlxCodeChallengeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA38D12478429977656908F /* libPods-OlxCodeChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OlxCodeChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6984B0595FEDE3649FF19620 /* libPods-OlxCodeChallengeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OlxCodeChallengeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D6273E92948F5891EDE429B /* Pods-OlxCodeChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OlxCodeChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OlxCodeChallengeTests/Pods-OlxCodeChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		A5100911196490FBAD0380A4 /* Pods-OlxCodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OlxCodeChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OlxCodeChallenge/Pods-OlxCodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		CD3457D7AB30345E2FEE7C25 /* Pods-OlxCodeChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OlxCodeChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OlxCodeChallengeTests/Pods-OlxCodeChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD8E2BD53E2584EA0E3C6007 /* Pods-OlxCodeChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OlxCodeChallengeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OlxCodeChallengeUITests/Pods-OlxCodeChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +119,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				067112531DEBA8EB0067DD7C /* MapKit.framework in Frameworks */,
+				5D9BADD00CCFACCB0FB6F760 /* libPods-OlxCodeChallenge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48837B55E8CFE874D8263811 /* libPods-OlxCodeChallengeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +136,200 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DA505D269DCA9BB62B5BF6A /* libPods-OlxCodeChallengeUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		067112391DEB6AF10067DD7C /* AdsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				0671123A1DEB6B140067DD7C /* DetailPageViewController.h */,
+				0671123B1DEB6B140067DD7C /* DetailPageViewController.m */,
+				067112411DEB6F510067DD7C /* AdsDetailViewController.h */,
+				067112421DEB6F510067DD7C /* AdsDetailViewController.m */,
+			);
+			name = AdsDetail;
+			sourceTree = "<group>";
+		};
+		0671123D1DEB6D3E0067DD7C /* AdsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				0671123E1DEB6D710067DD7C /* DetailPageDataSource.h */,
+				0671123F1DEB6D710067DD7C /* DetailPageDataSource.m */,
+			);
+			name = AdsDetail;
+			sourceTree = "<group>";
+		};
+		067112441DEB8C870067DD7C /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				067112481DEB8D5D0067DD7C /* AdsDetail */,
+				067112451DEB8CAF0067DD7C /* BaseTableViewCell.h */,
+				067112461DEB8CAF0067DD7C /* BaseTableViewCell.m */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		067112481DEB8D5D0067DD7C /* AdsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				067112491DEB8D7F0067DD7C /* AdsDetailTableViewCell.h */,
+				0671124A1DEB8D7F0067DD7C /* AdsDetailTableViewCell.m */,
+			);
+			name = AdsDetail;
+			sourceTree = "<group>";
+		};
+		0694013D1DEA045C00E490F1 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				06FD13821DE9F8C700CAA110 /* AppDelegate.h */,
+				06FD13831DE9F8C700CAA110 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0694013E1DEA046A00E490F1 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				0694014F1DEA0E9100E490F1 /* NetworkingConstants.h */,
+				069401501DEA0E9100E490F1 /* NetworkingConstants.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		0694013F1DEA048100E490F1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				067112391DEB6AF10067DD7C /* AdsDetail */,
+				069401621DEA25CC00E490F1 /* Ads */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		069401401DEA048B00E490F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0694015B1DEA184E00E490F1 /* Ads */,
+				069401451DEA05AD00E490F1 /* Common */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		069401411DEA049100E490F1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				069401491DEA08D800E490F1 /* ApiNetworkingManager.h */,
+				0694014A1DEA08D800E490F1 /* ApiNetworkingManager.m */,
+				069401581DEA13B700E490F1 /* AdsApiManager.h */,
+				069401591DEA13B700E490F1 /* AdsApiManager.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		069401421DEA049B00E490F1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				06FD13881DE9F8C700CAA110 /* Main.storyboard */,
+				067112371DEB68B90067DD7C /* AdsDetailStoryboard.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		069401431DEA04A300E490F1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0694014C1DEA0CC900E490F1 /* NSString+Utils.h */,
+				0694014D1DEA0CC900E490F1 /* NSString+Utils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		069401441DEA04B300E490F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				069401521DEA0F8700E490F1 /* Cells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		069401451DEA05AD00E490F1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				069401461DEA05FE00E490F1 /* BaseMantleObject.h */,
+				069401471DEA05FE00E490F1 /* BaseMantleObject.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		069401521DEA0F8700E490F1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				067112441DEB8C870067DD7C /* TableView */,
+				069401531DEA0F9200E490F1 /* CollectionViews */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		069401531DEA0F9200E490F1 /* CollectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				069401551DEA0FCD00E490F1 /* BaseCollectionViewCell.h */,
+				069401561DEA0FCD00E490F1 /* BaseCollectionViewCell.m */,
+				069401541DEA0FA600E490F1 /* Ads */,
+			);
+			name = CollectionViews;
+			sourceTree = "<group>";
+		};
+		069401541DEA0FA600E490F1 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				06EEA94B1DEA310400A53AE9 /* AdsListCell.h */,
+				06EEA94C1DEA310400A53AE9 /* AdsListCell.m */,
+			);
+			name = Ads;
+			sourceTree = "<group>";
+		};
+		0694015B1DEA184E00E490F1 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				0694015C1DEA190900E490F1 /* AdsResponse.h */,
+				0694015D1DEA190900E490F1 /* AdsResponse.m */,
+				0694015F1DEA1BC500E490F1 /* Ads.h */,
+				069401601DEA1BC500E490F1 /* Ads.m */,
+			);
+			name = Ads;
+			sourceTree = "<group>";
+		};
+		069401621DEA25CC00E490F1 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				069401631DEA262E00E490F1 /* AdsListViewController.h */,
+				069401641DEA262E00E490F1 /* AdsListViewController.m */,
+			);
+			name = Ads;
+			sourceTree = "<group>";
+		};
+		06EEA94E1DEA358600A53AE9 /* ModelContainer */ = {
+			isa = PBXGroup;
+			children = (
+				0671123D1DEB6D3E0067DD7C /* AdsDetail */,
+				06EEA94F1DEA359200A53AE9 /* Ads */,
+			);
+			name = ModelContainer;
+			sourceTree = "<group>";
+		};
+		06EEA94F1DEA359200A53AE9 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				06EEA9511DEA35CD00A53AE9 /* AdsModelContainer.h */,
+				06EEA9521DEA35CD00A53AE9 /* AdsModelContainer.m */,
+			);
+			name = Ads;
+			sourceTree = "<group>";
+		};
 		06FD13731DE9F8C600CAA110 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +337,8 @@
 				06FD13981DE9F8C700CAA110 /* OlxCodeChallengeTests */,
 				06FD13A31DE9F8C700CAA110 /* OlxCodeChallengeUITests */,
 				06FD137D1DE9F8C700CAA110 /* Products */,
+				C554440B1AD077303BD23A18 /* Pods */,
+				D40EDA41E3779DEDB7609166 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +355,15 @@
 		06FD137E1DE9F8C700CAA110 /* OlxCodeChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				06FD13821DE9F8C700CAA110 /* AppDelegate.h */,
-				06FD13831DE9F8C700CAA110 /* AppDelegate.m */,
-				06FD13851DE9F8C700CAA110 /* ViewController.h */,
-				06FD13861DE9F8C700CAA110 /* ViewController.m */,
-				06FD13881DE9F8C700CAA110 /* Main.storyboard */,
-				06FD138B1DE9F8C700CAA110 /* Assets.xcassets */,
-				06FD138D1DE9F8C700CAA110 /* LaunchScreen.storyboard */,
-				06FD13901DE9F8C700CAA110 /* Info.plist */,
+				06EEA94E1DEA358600A53AE9 /* ModelContainer */,
+				069401441DEA04B300E490F1 /* Views */,
+				069401431DEA04A300E490F1 /* Utils */,
+				069401421DEA049B00E490F1 /* Storyboards */,
+				069401411DEA049100E490F1 /* Networking */,
+				069401401DEA048B00E490F1 /* Models */,
+				0694013F1DEA048100E490F1 /* Controllers */,
+				0694013D1DEA045C00E490F1 /* AppDelegate */,
+				0694013E1DEA046A00E490F1 /* Constants */,
 				06FD137F1DE9F8C700CAA110 /* Supporting Files */,
 			);
 			path = OlxCodeChallenge;
@@ -117,6 +372,9 @@
 		06FD137F1DE9F8C700CAA110 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				06FD138B1DE9F8C700CAA110 /* Assets.xcassets */,
+				06FD138D1DE9F8C700CAA110 /* LaunchScreen.storyboard */,
+				06FD13901DE9F8C700CAA110 /* Info.plist */,
 				06FD13801DE9F8C700CAA110 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +398,30 @@
 			path = OlxCodeChallengeUITests;
 			sourceTree = "<group>";
 		};
+		C554440B1AD077303BD23A18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5100911196490FBAD0380A4 /* Pods-OlxCodeChallenge.debug.xcconfig */,
+				1A98EF7138E1867224EF988D /* Pods-OlxCodeChallenge.release.xcconfig */,
+				CD3457D7AB30345E2FEE7C25 /* Pods-OlxCodeChallengeTests.debug.xcconfig */,
+				9D6273E92948F5891EDE429B /* Pods-OlxCodeChallengeTests.release.xcconfig */,
+				CD8E2BD53E2584EA0E3C6007 /* Pods-OlxCodeChallengeUITests.debug.xcconfig */,
+				25F12ED2B2041498547035B5 /* Pods-OlxCodeChallengeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D40EDA41E3779DEDB7609166 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				067112521DEBA8EB0067DD7C /* MapKit.framework */,
+				4CA38D12478429977656908F /* libPods-OlxCodeChallenge.a */,
+				29F9FD4D18C6E182F079CFA7 /* libPods-OlxCodeChallengeTests.a */,
+				6984B0595FEDE3649FF19620 /* libPods-OlxCodeChallengeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +429,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06FD13A91DE9F8C700CAA110 /* Build configuration list for PBXNativeTarget "OlxCodeChallenge" */;
 			buildPhases = (
+				06EA4A735BB02D648E51730B /* [CP] Check Pods Manifest.lock */,
 				06FD13781DE9F8C700CAA110 /* Sources */,
 				06FD13791DE9F8C700CAA110 /* Frameworks */,
 				06FD137A1DE9F8C700CAA110 /* Resources */,
+				34B348D7AEC57991D677F7D0 /* [CP] Embed Pods Frameworks */,
+				C989258DC9BE727E3A1A0513 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +449,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06FD13AC1DE9F8C700CAA110 /* Build configuration list for PBXNativeTarget "OlxCodeChallengeTests" */;
 			buildPhases = (
+				EDAAC39503552DD6BC9E5326 /* [CP] Check Pods Manifest.lock */,
 				06FD13911DE9F8C700CAA110 /* Sources */,
 				06FD13921DE9F8C700CAA110 /* Frameworks */,
 				06FD13931DE9F8C700CAA110 /* Resources */,
+				FCC179D28F88844BA19B2CC5 /* [CP] Embed Pods Frameworks */,
+				9B3EA91BE115DCE4A95A17AD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +470,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06FD13AF1DE9F8C700CAA110 /* Build configuration list for PBXNativeTarget "OlxCodeChallengeUITests" */;
 			buildPhases = (
+				F3083DF15F0FA45CBA905D56 /* [CP] Check Pods Manifest.lock */,
 				06FD139C1DE9F8C700CAA110 /* Sources */,
 				06FD139D1DE9F8C700CAA110 /* Frameworks */,
 				06FD139E1DE9F8C700CAA110 /* Resources */,
+				DD2D6C06B07C2264E8DD4BF2 /* [CP] Embed Pods Frameworks */,
+				3E7F1BD5696AA61F0A6DC564 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,6 +500,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = Q869SK4UT6;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					06FD13941DE9F8C700CAA110 = {
 						CreatedOnToolsVersion = 8.1;
@@ -248,6 +544,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06FD138F1DE9F8C700CAA110 /* LaunchScreen.storyboard in Resources */,
+				067112381DEB68B90067DD7C /* AdsDetailStoryboard.storyboard in Resources */,
 				06FD138C1DE9F8C700CAA110 /* Assets.xcassets in Resources */,
 				06FD138A1DE9F8C700CAA110 /* Main.storyboard in Resources */,
 			);
@@ -269,14 +566,167 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06EA4A735BB02D648E51730B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		34B348D7AEC57991D677F7D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OlxCodeChallenge/Pods-OlxCodeChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E7F1BD5696AA61F0A6DC564 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OlxCodeChallengeUITests/Pods-OlxCodeChallengeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B3EA91BE115DCE4A95A17AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OlxCodeChallengeTests/Pods-OlxCodeChallengeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C989258DC9BE727E3A1A0513 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OlxCodeChallenge/Pods-OlxCodeChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD2D6C06B07C2264E8DD4BF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OlxCodeChallengeUITests/Pods-OlxCodeChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDAAC39503552DD6BC9E5326 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3083DF15F0FA45CBA905D56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FCC179D28F88844BA19B2CC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OlxCodeChallengeTests/Pods-OlxCodeChallengeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		06FD13781DE9F8C700CAA110 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06FD13871DE9F8C700CAA110 /* ViewController.m in Sources */,
+				069401481DEA05FE00E490F1 /* BaseMantleObject.m in Sources */,
 				06FD13841DE9F8C700CAA110 /* AppDelegate.m in Sources */,
+				069401571DEA0FCD00E490F1 /* BaseCollectionViewCell.m in Sources */,
+				0694014E1DEA0CC900E490F1 /* NSString+Utils.m in Sources */,
+				067112471DEB8CAF0067DD7C /* BaseTableViewCell.m in Sources */,
+				06EEA94D1DEA310400A53AE9 /* AdsListCell.m in Sources */,
+				069401511DEA0E9100E490F1 /* NetworkingConstants.m in Sources */,
+				0671124B1DEB8D7F0067DD7C /* AdsDetailTableViewCell.m in Sources */,
+				0694014B1DEA08D800E490F1 /* ApiNetworkingManager.m in Sources */,
+				06EEA9531DEA35CD00A53AE9 /* AdsModelContainer.m in Sources */,
+				069401651DEA262E00E490F1 /* AdsListViewController.m in Sources */,
 				06FD13811DE9F8C700CAA110 /* main.m in Sources */,
+				0671123C1DEB6B140067DD7C /* DetailPageViewController.m in Sources */,
+				067112401DEB6D710067DD7C /* DetailPageDataSource.m in Sources */,
+				0694015E1DEA190900E490F1 /* AdsResponse.m in Sources */,
+				069401611DEA1BC500E490F1 /* Ads.m in Sources */,
+				067112431DEB6F510067DD7C /* AdsDetailViewController.m in Sources */,
+				0694015A1DEA13B700E490F1 /* AdsApiManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,30 +873,35 @@
 		};
 		06FD13AA1DE9F8C700CAA110 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5100911196490FBAD0380A4 /* Pods-OlxCodeChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q869SK4UT6;
 				INFOPLIST_FILE = OlxCodeChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = maila.OlxCodeChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mailamanzur.OlxCodeChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		06FD13AB1DE9F8C700CAA110 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A98EF7138E1867224EF988D /* Pods-OlxCodeChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q869SK4UT6;
 				INFOPLIST_FILE = OlxCodeChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = maila.OlxCodeChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mailamanzur.OlxCodeChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		06FD13AD1DE9F8C700CAA110 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD3457D7AB30345E2FEE7C25 /* Pods-OlxCodeChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = OlxCodeChallengeTests/Info.plist;
@@ -459,6 +914,7 @@
 		};
 		06FD13AE1DE9F8C700CAA110 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D6273E92948F5891EDE429B /* Pods-OlxCodeChallengeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = OlxCodeChallengeTests/Info.plist;
@@ -471,6 +927,7 @@
 		};
 		06FD13B01DE9F8C700CAA110 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD8E2BD53E2584EA0E3C6007 /* Pods-OlxCodeChallengeUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = OlxCodeChallengeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,6 +939,7 @@
 		};
 		06FD13B11DE9F8C700CAA110 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25F12ED2B2041498547035B5 /* Pods-OlxCodeChallengeUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = OlxCodeChallengeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -510,6 +968,7 @@
 				06FD13AB1DE9F8C700CAA110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06FD13AC1DE9F8C700CAA110 /* Build configuration list for PBXNativeTarget "OlxCodeChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +977,7 @@
 				06FD13AE1DE9F8C700CAA110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06FD13AF1DE9F8C700CAA110 /* Build configuration list for PBXNativeTarget "OlxCodeChallengeUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +986,7 @@
 				06FD13B11DE9F8C700CAA110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

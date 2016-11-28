@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AdsListViewController.h
 //  OlxCodeChallenge
 //
 //  Created by Maila  Manzur on 26/11/16.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface AdsListViewController : UIViewController
+
 
 
 @end
-
